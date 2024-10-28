@@ -1,4 +1,4 @@
-name: Laravel CI
+name: CI
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  laravel-tests:
+  lints-and-tests:
     runs-on: ubuntu-latest
 
     strategy:
